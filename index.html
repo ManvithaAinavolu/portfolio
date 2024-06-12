@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ainavolu Manvitha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9a8523f19d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#page1" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#page2" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#page3" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+     <div id="main">
+        <div id="page">
+            <img src="manu.jpg" style="padding: 150px;border-radius:50%" alt=""/>
+            <div id="text">
+                <h2>Hello</h2>
+                <h1>I'm Ainavolu Manvitha</h1>
+                <h4>
+                    Passionate about web development and programming, with expertise in Java and Python. 
+                    
+                    Experienced in Angular, React, Node.js, OracleDB, MongoDB, and Xampp. 
+                    
+                    Proficient in data science and machine learning, with projects reflecting my skills.
+                    
+                    Completed IBM courses in GitHub and cybersecurity. 
+                    
+                    Eager to learn, innovate, and contribute to cutting-edge technologies. 
+                </h4>
+                <div id="buttons">
+                    <button id="b2">
+                        <a href="https://drive.google.com/file/d/1D1QydgwNmv7dpr3phRof2qRsSoUsPkdG/view?usp=drive_link">View My Resume</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="page1" class="page1">
+        <div id="right">
+            <div id="text1">
+                <h1>My Skills</h1>
+                <h4>
+                    As a dedicated developer, I've honed a versatile skill set that empowers me to bring creative visions to life in the digital realm. My proficiency in both frontend and backend technologies, including HTML, CSS, JavaScript, and a variety of frameworks and libraries.
+                </h4>
+            </div>
+        </div>
+        <div id="left">
+            
+            <div class="box">
+              
+                <h1>Programming Skills</h1>
+                <p>
+                    Since I love problem-solving, I would like to solve problems on HackerRank, CodeMond.
+                </p>
+                
+            </div>
+            <div class="box">
+               
+                <h1>Design and Development</h1>
+                <p>
+                    I have developed some websites and projects. I have gained experience in designing and developing web applications.
+                </p>
+                
+            </div>
+            <div class="box">
+                
+                <h1>Data Science</h1>
+                <p>
+                    Data Science is one of my areas of interest. I have done some data science projects that dive deep into learning machine learning algorithms and improve my knowledge.
+                </p>
+               
+            </div>
+        </div>
+    </div>
+    <section id="page2">
+        <div id="text4">
+            <h1>My Projects</h1>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h3>Awareness on Women Against Abuse</h3>
+                <p>This is a Community Service Project where we worked as a team.
+
+                    In this project we mainly focussed about women in rural area who are facing problems and 
+
+                    not able to give any complaint.
+                    
+                    So our main goal is to make a platform that available for every women in rural area as they can 
+                    reguster a complant from our wesite 
+
+                    Link to view complete website:<a href="https://women-against-abuse.web.app/home">Awareness for women against abuse</a>
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="woman.jpeg" alt="Project 1 Image" onclick="openModal('project1')">
+            </div>
+        </div>
+        <div id="project1Modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('project1')">&times;</span>
+                <h2>Project Screenshots</h2>
+                <div class="screenshots">
+                    <img src="woman1.png" alt="Project 1 Screenshot 1">
+                    <img src="woman2.png" alt="Project 1 Screenshot 2">
+                </div>
+                <h3>Technology Stack:</h3>
+                <ul>
+                FrameWork:   <li>Angular Framework</li>
+                Database:    <li>Oracle DB</li>
+                Sever:   <li>Node.js</li>
+                    <li>Express.js</li>
+                 </ul>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h3>Data Science</h3>
+                <p>As I am very passionate about data science,
+
+                    I started my journey from BHARATH INTERN!
+
+                    where i engaged through several projects during that internship and gained experience in 
+
+                    the vision of data science.
+                    One of my best project is Gender-Age-Prediction that predicts the gender and age of a person from the image.
+
+                    SMS classifier is also placed a key role for me to learn about NLP(Natural Language Processing).
+
+                  
+                    check my github to know about my projects.
+
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="datascience.jpeg" style="height:450px;" alt="Project 1 Image" onclick="openModal('project2')">
+            </div>
+        </div>
+        <div id="project2Modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('project2')">&times;</span>
+                <h2>Project Screenshots</h2>
+                <div class="screenshots">
+                    <img src="data1.jpeg" alt="Project 1 Screenshot 1">
+                    <img src="data2.png" alt="Project 1 Screenshot 2">
+                </div>
+                <h3>Technology Stack:</h3>
+                <ul>
+                    <li>DataSets from Kaggle</li>
+                    <li>Jupyter Notebook or Google Collab</li>
+                    <li>Machine learning Algorithms</li>
+                    <li>Numpy,Pandas and other libraries from Python</li>
+                 </ul>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h3>Toursita</h3>
+                <p>Toursita is a web application that aims about tourism in southern stats of India.
+                    It is a Rect Js application.
+                    The main goal of this application is whe a user search for a specific place it shows the results of that place 
+
+                    and give the inforation about how much it costs for a person to travel that place.
+
+                    This websitealso provides the step by step guide for how to plan a trip what are the neccesarry things to know about the trip.
+
+
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="tour.jpeg" alt="Project 1 Image" onclick="openModal('project3')">
+            </div>
+        </div>
+        <div id="project3Modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('project3')">&times;</span>
+                <h2>Project  Screenshots</h2>
+                <div class="screenshots">
+                    <img src="tour1.png" alt="Project 1 Screenshot 1">
+                    <img src="tour2.png" alt="Project 1 Screenshot 2">
+                </div>
+                <h3>Technology Stack:</h3>
+                <ul>
+                 Framework:   <li>React Js</li>
+                 Database:  <li>Oracle DB</li>
+                 Server   <li>Node.js</li>
+                    <li>Express.js</li>
+                 </ul>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h3>Book Store</h3>
+                <p>This is a Cloud based application,I used IBM cloud to complete this.
+
+                    The main goal of bookstore application is to provide a platform for sharing e-commerce books or
+                    informative books from the person who don't need the and for the persons who need them.
+
+                    Here the user can register through online and can sell the book if he wants either buy the book if he wants to.
+
+                    
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="book.jpeg" alt="Project 1 Image" onclick="openModal('project4')">
+            </div>
+        </div>
+        <div id="project4Modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('project4')">&times;</span>
+                <h2>Project  Screenshots</h2>
+                <div class="screenshots">
+                    <img src="book1.png" alt="Project 1 Screenshot 1">
+                    <img src="book2.png" alt="Project 1 Screenshot 2">
+                </div>
+                <h3>Technology Stack:</h3>
+                <ul>
+                    <li>Angular Framework</li>
+                    <li>IBM DB2</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                 </ul>
+            </div>
+        </div>
+     </section>
+    
+
+     <section id="page3" class="contact-container">
+        <div class="contact-me">
+            <h2>Get in Touch</h2>
+            <div class="collab">Let's Collaborate</div>
+            <p>Feel free to reach out to me!</p>
+            <div class="contact-links">
+                <a href="mailto:manvithaainavolu@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/ManvithaAinavolu" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/manvitha-ainavolu-22090424b" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <div class="additional-contact">
+                <p>Connect with me on social media:</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                 </div>
+            </div>
+            <p class="quote">"If you think you can,you can.
+                <br/>
+                If you think you can't ,You are right!" -Manvitha Ainavolu.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="bottom-container">
+            <p class="copyright">&copy; CopyRights reserved by Manvitha Ainavolu Portfolio 2024</p>
+        </div>
+    </footer>
+    
+
+
+</body>
+<script src="script.js"></script>
+</html>
